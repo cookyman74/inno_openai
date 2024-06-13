@@ -1,5 +1,5 @@
 # 📘 OpenAI API 스터디 
-OpenAI 공식 Document, Cookbook, 그 밖의 실용 예제**를 바탕으로 작성한 튜토리얼임과 동시에,
+**OpenAI 공식 Document, Cookbook, 그 밖의 실용 예제**를 바탕으로 작성한 튜토리얼임과 동시에,
 
 스터디 공간이다.
 
@@ -8,11 +8,16 @@ OpenAI 공식 Document, Cookbook, 그 밖의 실용 예제**를 바탕으로 작
 
 
 ## 목표 
+- openai 다루기
 - langchain 사용하기 
-- [RAG : agent, vectorDB](https://github.com/cookyman74/chat-with-mysql)
-- 입사 지원서 분석하고 면접 준비하기
-- 면접 결과 
-- commit helper
+- 파인튜닝 방법을 익힙니다.
+- 다음의 실습과제를 수행합니다.
+  - 입사 지원서 분석하고 면접 준비하기
+  - 유튜브 자막 번역 및 요약 기능
+  - 회의녹취록 요약 기능
+  - commit helper
+  - 로그 분석 및 리포팅 기능
+
 
 ## 📚 출처
 - [OpenAI Cookbook](https://cookbook.openai.com/) 📖
