@@ -58,15 +58,15 @@ def main():
             logging.info("스테이지에 추가된 변경사항이 없습니다.")
             return
 
-        logging.info("코드 리뷰 중...")
+        logging.info("코드 리뷰 중...\n")
         review = review_code(diff)
-        logging.info("코드 리뷰 결과:\n")
-        print(review)
+        logging.info("코드 리뷰 결과:")
+        print(review + "\n\n")
 
-        logging.info("커밋 메시지 추천 중...")
+        logging.info("커밋 메시지 추천 중...\n")
         commit_message = suggest_commit_message(diff)
-        logging.info("추천된 커밋 메시지:\n")
-        print(commit_message)
+        logging.info("추천된 커밋 메시지:")
+        print(commit_message + "\n\n")
 
         user_input = input("\n이 커밋 메시지를 사용하시겠습니까? (y/n): ")
         if user_input.lower() == 'y':
