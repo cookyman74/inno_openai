@@ -68,7 +68,7 @@ def main():
         logging.info("추천된 커밋 메시지:")
         print(commit_message + "\n\n")
 
-        user_input = input("\n이 커밋 메시지를 사용하시겠습니까? (y/n): ")
+        user_input = input("\n이 커밋 메시지를 사용하시겠습니까?... (y/n): ")
         if user_input.lower() == 'y':
             repo = Repo(os.getcwd())
             repo.index.commit(commit_message)

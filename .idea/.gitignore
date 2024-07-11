@@ -1,13 +1,24 @@
+<<<<<<< HEAD
 # 디폴트 무시된 파일
 /shelf/
 /workspace.xml
 # 에디터 기반 HTTP 클라이언트 요청
+=======
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+>>>>>>> 1428555 (코드리뷰 및 로그분석시스템 추가)
 /httpRequests/
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+<<<<<<< HEAD
 .idea/misc.xml
 .idea/modules.xml
 .idea/vcs.xml
 .idea/workspace.xml
 .env
+=======
+.idea
+>>>>>>> 1428555 (코드리뷰 및 로그분석시스템 추가)
